@@ -1,0 +1,140 @@
+---
+format:
+  beamer:
+    theme: metropolis
+    keep-tex: false
+    incremental: false
+header-includes:
+  - \setbeamerfont{title}{size=\large}
+  - \setbeamertemplate{footline}[frame number]
+---
+
+
+```{=latex}
+% TITLE SLIDES
+\title{\Large La mia esperienza con i dati FAIR}
+\author{Giorgio Arcara}
+
+\titlegraphic{
+\vspace*{7cm}
+\includegraphics[scale=0.15]{Figures/LogoSanCamilloIRCCS_Unipd_alpha.png}
+\begin{center}
+\vspace{-2.2em}
+\includegraphics[scale=0.15]{Figures/CC_license_3_0.png}
+\end{center}
+}
+\date{21/05/2026}
+\maketitle
+```
+
+<!-- the section below is shown only if rendering is reveal js (and all part for rendering in beamer is commented) -->
+
+## Due esperienze
+
+- Ricercatore
+- Vice Direttore Scientifico
+
+# Ricercatore 
+
+## Utilizzatore di dati FAIR
+\pause
+Serve veramente raccogliere dei nuovi dati?
+
+
+
+
+## Un primo esempio
+**Aperiodic component** of EEG spectrum in **Aging**
+\pause
+![](Figures/montemurro_aperiodic.png)
+\centering
+\href{https://www.nature.com/articles/s41598-024-66049-2}{\underline{Montemurro et al., 2024}}
+\pause
+
+\href{https://www.nature.com/articles/sdata2018308}{\underline{\textbf{Lemon dataset}}}
+
+## Un primo esempio - risultati
+
+![](Figures/aperiodic_montemurro.png){fig-align="center" width="80%"}
+
+## Alcuni esempi
+
+![](Figures/Lago_aperiodic.png)
+\centering
+\href{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0328318}{\underline{Lago et al., 2026}}
+\pause
+
+\href{https://github.com/euroladbrainlat/Brain-health-in-diverse-setting}{\underline{\textbf{Brain health in diverse setting - dataset}}}
+
+## Un altro esempio
+
+![](Figures/Schelfhout_fingerprinting.png)
+\centering
+\href{https://www.biorxiv.org/c/10.1101/2024.08.05.606621v1}{\underline{Schelfhout et al., 2026}}
+
+\pause
+\href{https://cam-can.mrc-cbu.cam.ac.uk/dataset/}{\underline{\textbf{Cam-Can data repository}}}
+\href{https://www.mcgill.ca/bic/neuroinformatics/omega}{\underline{\textbf{Omega Dataset}}}
+
+## E un altro ancora
+
+A PhD on DBS data
+\href{https://figshare.com/articles/dataset/Sumultaneous_subthalamic_local_field_potentials_and_MEG-derived_cortical_activity_in_Parkinson_s_patients_ON_and_OFF_dopaminergic_medication/31254136}{\underline{\textbf{DBS - ON/OFF Dataset}}}
+
+
+## A good habit
+
+L'atto della Fairification non è \textbf{solo} importante per l' Open Science e per aspetti ideologici.\pause
+
+\pause
+E' un "good habit" che fa _risparmiare tempo_. \pause
+
+- Non vengono raccolti dati non necessari
+- porta ad un migliore (e più sicuro) immagazzinamento dei dati, anche per riutilizzo interno.
+
+
+# Vice direttore scientifico
+
+## Perchè FAIR data?
+
+Quando si vuole parlare di _impatto_ sempre più sono necessari grandi moli di dati. I dati fair sono un pre-requisito
+\pause
+
+Avere dati FAIR significa anche essere più pronti a collaborazioni.
+
+## FAIR data, Data Management Plan
+
+Numerosi finanziamenti, richiedono un DMP e dati FAIR.
+
+Conoscere pratiche FAIR significa stare al passo con i tempi
+
+## Grazie!
+\centering
+\Large
+
+giorgio.arcara@unipd.it
+
+[giorgioarcara.github.io](giorgioarcara.github.io)
+
+```{=latex}
+\vfill
+\begin{columns}
+\column{0.5\textwidth}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Figures/ONDA_logo_v12a.png}
+
+\href{https://sancamilloirccs-ondalab.github.io/}{\underline{\textbf{ONDA Lab}}}
+\end{center}
+\column{0.5\textwidth}
+\begin{center}
+\includegraphics[width=0.3\textwidth]{Figures/QP_logo.png}
+
+\href{https://sancamilloirccs-ondalab.github.io/}{\underline{\textbf{QP Lab}}}
+\end{center}
+\end{columns}
+```
+
+
+
+
+
