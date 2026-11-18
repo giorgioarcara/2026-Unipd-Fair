@@ -31,10 +31,10 @@ header-includes:
 
 ## Due esperienze
 
-- Ricercatore
-- Vice Direttore Scientifico
+- Utilizzatore di dati FAIR
+- Curatore di dati FAIR
 
-# Ricercatore 
+# Utilizzatore
 
 ## Utilizzatore di dati FAIR
 \pause
@@ -42,11 +42,12 @@ Serve veramente raccogliere dei nuovi dati?
 
 
 
-
 ## Un primo esempio
 **Aperiodic component** of EEG spectrum in **Aging**
+
 \pause
-![](Figures/montemurro_aperiodic.png)
+![](Figures/montemurro_aperiodic.png){width="50%" fig-align="center"}
+
 \centering
 \href{https://www.nature.com/articles/s41598-024-66049-2}{\underline{Montemurro et al., 2024}}
 \pause
@@ -55,9 +56,9 @@ Serve veramente raccogliere dei nuovi dati?
 
 ## Un primo esempio - risultati
 
-![](Figures/aperiodic_montemurro.png){fig-align="center" width="80%"}
+![](Figures/aperiodic_montemurro_results.jpeg){fig-align="center" width="80%"}
 
-## Alcuni esempi
+## Secondo esempio
 
 ![](Figures/Lago_aperiodic.png)
 \centering
@@ -65,6 +66,11 @@ Serve veramente raccogliere dei nuovi dati?
 \pause
 
 \href{https://github.com/euroladbrainlat/Brain-health-in-diverse-setting}{\underline{\textbf{Brain health in diverse setting - dataset}}}
+
+## Secondo esempio - risultati
+
+![](Figures/Lago_results.png){fig-align="center"}
+
 
 ## Un altro esempio
 
@@ -81,23 +87,40 @@ Serve veramente raccogliere dei nuovi dati?
 A PhD on DBS data
 \href{https://figshare.com/articles/dataset/Sumultaneous_subthalamic_local_field_potentials_and_MEG-derived_cortical_activity_in_Parkinson_s_patients_ON_and_OFF_dopaminergic_medication/31254136}{\underline{\textbf{DBS - ON/OFF Dataset}}}
 
+# Curatore
 
-## A good habit
 
-L'atto della Fairification non è \textbf{solo} importante per l' Open Science e per aspetti ideologici.\pause
-
+## Condividere i dati
 \pause
+E se non è possibile? \pause 
+
+(con dati sanitari, è complessa la condivisione **full open**)
+
+\vfill
+\pause
+è sempre utile adottare pratiche **FAIR**: \pause
+
+- dati più sicuri
+- dati più facilmente riutilizzabili (es. BIDS)
+- dati più facilmente condivisibili
+
+
+## Conclusioni: a good habit
+
+L'atto della _FAIRification_ non è \textbf{solo} importante per l' Open Science e per aspetti ideologici.\pause
+
 E' un "good habit" che fa _risparmiare tempo_. \pause
 
-- Non vengono raccolti dati non necessari
-- porta ad un migliore (e più sicuro) immagazzinamento dei dati, anche per riutilizzo interno.
+- Non vengono raccolti dati non necessari.
+- porta ad un migliore (e più sicuro) immagazzinamento dei dati, anche per riutilizzo interno o per collaborazioni.
+- massimizza l'utilizzo di ciò per cui si dedicano tante risorse.
 
-
+<!--
 # Vice direttore scientifico
 
 ## Perchè FAIR data?
 
-Quando si vuole parlare di _impatto_ sempre più sono necessari grandi moli di dati. I dati fair sono un pre-requisito
+Quando si vuole parlare di _impatto_ sempre più sono necessari grandi moli di dati. I dati FAIR sono un pre-requisito
 \pause
 
 Avere dati FAIR significa anche essere più pronti a collaborazioni.
@@ -108,15 +131,18 @@ Numerosi finanziamenti, richiedono un DMP e dati FAIR.
 
 Conoscere pratiche FAIR significa stare al passo con i tempi
 
+-->
+
 ## Grazie!
 \centering
-\Large
 
 giorgio.arcara@unipd.it
 
 [giorgioarcara.github.io](giorgioarcara.github.io)
 
 ```{=latex}
+\Large
+
 \vfill
 \begin{columns}
 \column{0.5\textwidth}
